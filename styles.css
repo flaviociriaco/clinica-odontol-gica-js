@@ -48,17 +48,17 @@ header {
 }
 
 button {
-    background-color: var(--color-green);
-    padding: 15px;
-    font-size: 18px;
-    color: var(--color-white);
-    border-radius: 10px;
-    border: none;
-    text-transform: uppercase;
+  background-color: var(--color-green);
+  padding: 15px;
+  font-size: 18px;
+  color: var(--color-white);
+  border-radius: 10px;
+  border: none;
+  text-transform: uppercase;
 }
 
-button:hover{
-    color: var(--color-navyBlue)
+button:hover {
+  color: var(--color-navyBlue);
 }
 
 .menu-register li {
@@ -104,10 +104,27 @@ nav a {
   font-size: 18px;
 }
 
-nav a:hover {
+.menu-bar:hover {
   color: var(--color-navyBlue);
 }
 
-nav ul li ul li {
-    display: none;
+.dropdown-menu {
+  background-color: var(--color-white);
+  position: absolute;
+  border-radius: 10px;
+  display: none;
+}
+
+.dropdown-menu a {
+  display: block;
+  color: var(--color-dark1);
+  font-size: 15px;
+}
+
+.dropdown-menu a:hover {
+  background-color: var(--color-navyBlue);
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
 }
