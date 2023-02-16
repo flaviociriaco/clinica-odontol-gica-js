@@ -17,75 +17,97 @@
   --color-green: #2fa524;
 }
 
-.container {
+body {
   background-color: var(--color-navyBlue);
-  width: 100vw;
-  height: 100vh;
 }
 
 header {
-  background-color: var(--color-blue);
-  width: 100vw;
-  height: 120px;
-}
-
-.menu-itens {
-  height: 120px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 100%;
-  color: var(--color-white);
-  gap: 2rem;
-  padding-left: 365px;
+  height: 120px;
 }
 
-ul {
+.container {
   display: flex;
-  gap: 2rem;
-  font-size: 25px;
+  width: 100%;
+  background-color: var(--color-blue);
+  justify-content: space-around;
 }
 
-.logo {
-  height: 2em;
-  position: absolute;
-  top: 25px;
-  left: 150px;
+.menu {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
 }
 
-.text {
-  width: 200px;
-  height: 20px;
-  display: inline-block;
-  margin-left: 10px;
-  color: var(--color-white);
-  text-align: center;
-}
-
-.text01 {
-  font-size: 35px;
-}
-
-.text02 {
-  font-size: 20px;
-}
-
-#img {
-  width: 70px;
-  height: 70px;
+.menu-button {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
 }
 
 button {
-  background-color: var(--color-green);
-  width: 235px;
-  height: 40px;
+    background-color: var(--color-green);
+    padding: 15px;
+    font-size: 18px;
+    color: var(--color-white);
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+}
+
+button:hover{
+    color: var(--color-navyBlue)
+}
+
+.menu-register li {
+  list-style: none;
+}
+img {
+  width: 70px;
+  height: 60px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.text {
+  padding-left: 5px;
   font-size: 20px;
-  border-radius: 10px;
-  outline: none;
-  border: none;
   color: var(--color-white);
 }
 
-.botao-agendamento {
-  margin-left: 70px;
+.text02 {
+  font-size: 10px;
+  text-align: center;
+}
+
+nav ul,
+nav li {
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--color-white);
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: var(--color-navyBlue);
+}
+
+nav ul li ul li {
+    display: none;
 }
