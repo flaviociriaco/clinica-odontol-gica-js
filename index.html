@@ -1,58 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Clínica Odontológica</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles.css" />
-  <title>Clínica Odontológica</title>
-</head>
-
-<body>
-  <header>
-    <div class="container">
-      <div class="logo">
-        <a href=""><img src="./assets/logo-dente1.jpg" alt="" /></a>
-        <div class="text">
-          <p class="text01">HappyTeeth</p>
-          <p class="text02">simples como sorrir</p>
+  <body>
+    <header>
+      <div class="header">
+        <div class="logo">
+          <a href=""
+            ><img class="logo-img" src="./assets/logo/logo-dente1.jpg" alt=""
+          /></a>
+          <div class="logo-text">
+            <p class="text01">HappyTeeth</p>
+            <p class="text02">simples como sorrir</p>
+          </div>
+        </div>
+        <div class="menu">
+          <nav>
+            <ul>
+              <li>
+                <a class="menu-bar" href="">Home</a>
+              </li>
+              <li>
+                <a class="menu-bar" href="">Sobre nós</a>
+              </li>
+              <li class="dropdown">
+                <a class="menu-bar" href="">Tratamentos</a>
+                <div class="dropdown-menu">
+                  <a href="">Clínico</a>
+                  <a href="">Ortodontia</a>
+                  <a href="">Estética</a>
+                  <a href="">Implantes</a>
+                  <a href="">Outros Tratamentos</a>
+                </div>
+              </li>
+              <li>
+                <a class="menu-bar" href="">Clínicas</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="menu-button">
+          <button>Agendamento</button>
         </div>
       </div>
-      <div class="menu">
-        <nav>
-          <ul>
-            <li>
-              <a class="menu-bar" href="">Home</a>
-            </li>
-            <li>
-              <a class="menu-bar" href="">Sobre nós</a>
-            </li>
-            <li class="dropdown">
-              <a class="menu-bar" href="">Tratamentos</a>
-              <div class="dropdown-menu">
-                <a href="">Clínico</a>
-                <a href="">Ortodontia</a>
-                <a href="">Estética</a>
-                <a href="">Implantes</a>
-                <a href="">Outros Tratamentos</a>
-              </div>
-            </li>
-            <li>
-              <a class="menu-bar" href="">Clínicas</a>
-            </li>
-          </ul>
-        </nav>
+    </header>
+
+    <section class="carrossel">
+      <div class="slides">
+        <div class="slide">
+          <img src="./assets/imagen/odonto1.jpg" alt="" class="slide-img" />
+        </div>
+        <div class="slide">
+          <img src="./assets/imagen/odonto2.jpg" alt="" class="slide-img" />
+        </div>
+        <div class="slide">
+          <img src="./assets/imagen/odonto3.jpg" alt="" class="slide-img" />
+        </div>
+        <div class="slide">
+          <img src="./assets/imagen/odonto4.jpg" alt="" class="slide-img" />
+        </div>
       </div>
-      <div class="menu-button">
-        <button>Agendamento</button>
-      </div>
-    </div>
-  </header>
+    </section>
 
-  <section class="carousel"></section>
-
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
